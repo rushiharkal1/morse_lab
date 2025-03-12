@@ -53,7 +53,7 @@ pip install pytest
 
 Now, you can run the tests:
 ```bash
-pytest tests/
+python -m pytest tests/
 ```
 
 ## License

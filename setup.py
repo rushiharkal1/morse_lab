@@ -6,8 +6,8 @@ readme_path = "README.md"
 long_description = open(readme_path, "r", encoding="utf-8").read() if os.path.exists(readme_path) else ""
 
 setup(
-    name="morse-lab",  # Updated to match PyPI package name
-    version="0.1.1",  # Incremented version for republishing
+    name="morse_lab",  # Updated to match PyPI package name
+    version="0.2.0",  # Incremented version for republishing
     packages=find_packages(),
     include_package_data=True,  # Include extra non-code files (needs MANIFEST.in)
     install_requires=[],  # List dependencies if needed

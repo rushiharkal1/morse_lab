@@ -1,6 +1,3 @@
-import winsound # OPTIONAL
-import time # OPTIONAL
-
 # Morse Code dictionary "a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 , . ? / - ( ) ' " & ; _ + = @"
 MORSE_CODE_DICT = {
     # Alphabets
@@ -17,7 +14,7 @@ MORSE_CODE_DICT = {
     '_': '..--.-', '+': '.-.-.', '=': '-...-', '@': '.--.-.'
 }
 
-# Japanese to English
+# Japanese to English Dictionary
 JAPANESE_TO_ENGLISH = {
     # Katakana
     'ア': 'A', 'イ': 'I', 'ウ': 'U', 'エ': 'E', 'オ': 'O',
@@ -38,14 +35,19 @@ JAPANESE_TO_ENGLISH = {
     'バ': 'BA', 'ビ': 'BI', 'ブ': 'BU', 'ベ': 'BE', 'ボ': 'BO',
     'パ': 'PA', 'ピ': 'PI', 'プ': 'PU', 'ペ': 'PE', 'ポ': 'PO',
 
+    # Small Tsu (Creates Double Consonant)
+    'ッ': '',
+
     # Numbers
     '0': '0', '1': '1', '2': '2', '3': '3', '4': '4',
     '5': '5', '6': '6', '7': '7', '8': '8', '9': '9',
 
     # Symbols
-    ',': ',', '.': '.', '?': '?', '/': '/', '-': '-',
-    '(': '(', ')': ')', "'": "'", '"': '"', '&': '&',
-    ';': ';', '_': '_', '+': '+', '=': '=', '@': '@'
+    '。': '.',  # Japanese full stop
+    '、': ',',  # Japanese comma
+    ',': ',', '.': '.', ':': ':', ';': ';', '?': '?', '!': '!',
+    '/': '/', '-': '-', '(': '(', ')': ')', "'": "'", '"': '"',
+    '&': '&', '_': '_', '+': '+', '=': '=', '@': '@', '$': '$'
 }
 
 
