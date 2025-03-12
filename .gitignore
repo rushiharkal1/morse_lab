@@ -1,0 +1,16 @@
+# Compiled files
+*.pyc
+*.pyo
+
+# Distribution directories
+dist/
+build/
+*.egg-info
+
+# Virtual environment
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
