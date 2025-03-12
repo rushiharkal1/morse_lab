@@ -19,7 +19,7 @@ pip install git+https://github.com/rushiharkal1/morse_lab.git
 or
 
 ```bash
-pip install morse_lab
+pip install morse-lab
 ```
 
 ## Usage
